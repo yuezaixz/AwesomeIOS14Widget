@@ -22,7 +22,8 @@
 	<true/>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>IntentIntent</string>
+		<string>LastCommitIntent</string>
+		<string>LastCommitIntentIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

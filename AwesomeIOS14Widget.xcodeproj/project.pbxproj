@@ -18,7 +18,8 @@
 		A6E0DCF424A38CCB00455671 /* AwesomeIOS14WidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0DCF324A38CCB00455671 /* AwesomeIOS14WidgetExtension.swift */; };
 		A6E0DCF624A38CCE00455671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E0DCF524A38CCE00455671 /* Assets.xcassets */; };
 		A6E0DCFA24A38CCE00455671 /* AwesomeIOS14WidgetExtensionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6E0DCEC24A38CCB00455671 /* AwesomeIOS14WidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A6E0DD0024A3A38D00455671 /* AwesomeWidgetSiriIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6E0DCFF24A3A38D00455671 /* AwesomeWidgetSiriIntents.intentdefinition */; };
+		A6E0DD0124A3ABB000455671 /* LastCommitIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6E0DCFF24A3A38D00455671 /* LastCommitIntent.intentdefinition */; };
+		A6F323AD24A43C9D00D4988E /* LastCommitIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6E0DCFF24A3A38D00455671 /* LastCommitIntent.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,7 @@
 		A6E0DCF324A38CCB00455671 /* AwesomeIOS14WidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeIOS14WidgetExtension.swift; sourceTree = "<group>"; };
 		A6E0DCF524A38CCE00455671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E0DCF724A38CCE00455671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6E0DCFF24A3A38D00455671 /* AwesomeWidgetSiriIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AwesomeWidgetSiriIntents.intentdefinition; sourceTree = "<group>"; };
+		A6E0DCFF24A3A38D00455671 /* LastCommitIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LastCommitIntent.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +140,7 @@
 				A6E0DCF324A38CCB00455671 /* AwesomeIOS14WidgetExtension.swift */,
 				A6E0DCF524A38CCE00455671 /* Assets.xcassets */,
 				A6E0DCF724A38CCE00455671 /* Info.plist */,
-				A6E0DCFF24A3A38D00455671 /* AwesomeWidgetSiriIntents.intentdefinition */,
+				A6E0DCFF24A3A38D00455671 /* LastCommitIntent.intentdefinition */,
 			);
 			path = AwesomeIOS14WidgetExtension;
 			sourceTree = "<group>";
@@ -248,7 +249,7 @@
 				A6E0DCD524A38C1700455671 /* AppDelegate.swift in Sources */,
 				A6E0DCD724A38C1700455671 /* SceneDelegate.swift in Sources */,
 				A6E0DCD924A38C1700455671 /* ContentView.swift in Sources */,
-				A6E0DD0024A3A38D00455671 /* AwesomeWidgetSiriIntents.intentdefinition in Sources */,
+				A6F323AD24A43C9D00D4988E /* LastCommitIntent.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E0DCF424A38CCB00455671 /* AwesomeIOS14WidgetExtension.swift in Sources */,
+				A6E0DD0124A3ABB000455671 /* LastCommitIntent.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
